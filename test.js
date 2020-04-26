@@ -1,6 +1,6 @@
 var code = `
 
-// This is a demo.
+// This ins a demo.
 print "Con" + "Cat" + "En" + "Ation"
 
 var first = "Jimmy"
@@ -9,7 +9,7 @@ var last = "Carter"
 if first = "Jimmy"
 	if last = "Carter"
 		print "Welcome, " + first + " " + last + "!"
-`
+`;
 
 run(code.split("\n"));
 

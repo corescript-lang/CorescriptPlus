@@ -43,9 +43,9 @@ function run(code) {
 			if (pastIndent == indent[0]) {
                 pass = false;
 
-				// Tell interpreter to go back and parse current line
-				// if indent is dropped back down. Messy solution, but works.
-				l--;
+			// Tell interpreter to go back and parse current line
+			// if indent is dropped back down. Messy solution, but works.
+			l--;
             }
 		} else {
 			if (test["print"]) {
